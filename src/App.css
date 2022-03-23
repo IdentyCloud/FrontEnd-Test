@@ -1,0 +1,48 @@
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.uk-navbar-item,
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.uk-card-body, .uk-card-footer {
+  padding: 20px 15px;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: rgb(161 117 211);
+}
+
+.uk-navbar-nav>li>a{
+  color: rgb(255, 255, 255);
+}
+
+.uk-navbar-nav>li>a:hover{
+  color: rgb(223, 223, 223);
+}
+
+.uk-button-primary{
+  background: rgb(230 82 138);
+  border-radius: 5px;
+}
+
+.uk-button-primary:hover{
+  background: rgb(238, 105, 156);
+}
+

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeueBoldCondensed.eot");
+  src: local("Helvetica Neue Condensed Bold"),
+    local("HelveticaNeueBoldCondensed"),
+    url("./fonts/HelveticaNeueBoldCondensed.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"),
+    url("./fonts/HelveticaNeueBoldCondensed.woff") format("woff"),
+    url("./fonts/HelveticaNeueBoldCondensed.ttf") format("truetype");
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif !important;
+}
