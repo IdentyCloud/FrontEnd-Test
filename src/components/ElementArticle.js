@@ -1,9 +1,10 @@
 import { useParams } from "react-router-dom";
-import dayjs from "dayjs";
+import dayjs from "dayjs"; // Manejador de Fecha y Formato
 
 export const ElementArticle = ({ data }) => {
-  let params = useParams();
+  let params = useParams(); // Obtener el valor del parametos por URL
 
+  // Diseño y Estructura de un Articulo en general
   return (
     <div className="uk-container uk-container-large">
       {Object.values(data)

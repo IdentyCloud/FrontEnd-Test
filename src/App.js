@@ -6,8 +6,8 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <AppRouter />
+      <Navbar /> {/* Layout */}
+      <AppRouter /> {/* Enrutador */}
     </div>
   );
 };

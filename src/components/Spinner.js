@@ -1,3 +1,4 @@
+// Spinner de Carga
 export const Spinner = () => {
   return (
     <div className="uk-position-center">

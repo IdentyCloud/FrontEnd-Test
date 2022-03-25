@@ -9,8 +9,8 @@ const queryClient = new QueryClient();
 
 ReactDOM.render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+    <QueryClientProvider client={queryClient}> {/* Manejador de Querys */}
+      <BrowserRouter> { /* Manejador de Rutas */}
         <App />
       </BrowserRouter>
     </QueryClientProvider>

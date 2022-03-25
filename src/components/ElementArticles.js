@@ -1,13 +1,15 @@
 import { useNavigate } from "react-router-dom";
-import dayjs from "dayjs";
+import dayjs from "dayjs"; // Manejador de Fechas y Formatos
 
 export const ElementArticles = ({ data, title, filter }) => {
   let navigate = useNavigate();
 
+  // Navegación por Evento
   const hanbleArticle = (e) => {
     navigate(`${e.target.id}`);
   };
 
+  // Diseño y Estructura de Tarjetas por Articulos
   return (
     <div className="uk-container uk-container-large">
       <div className="uk-margin uk-margin-remove-adjacent">

@@ -1,10 +1,12 @@
 export const ElementCategory = ({ data }) => {
+  // Filtro de Objeto por Categoria
   const filterObjects = [
     ...new Map(
       Object.values(data).map((item) => [item.category, item])
     ).values(),
   ];
 
+  // Diseño y estructura de tarjetas por Categoria
   return (
     <div className="uk-container uk-container-large">
       <div className="uk-margin uk-margin-remove-adjacent uk-animation-fade">
